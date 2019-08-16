@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HeroControl : MonoBehaviour
-{
+{//controles del las teclas para el heroe
     public static Vector3 pos;
     public Color col;
     public static float speed;
@@ -28,12 +28,12 @@ public class HeroControl : MonoBehaviour
         }
     }
     private void OnCollisionEnter(Collision col)
-    {
+    {//mesage asignado al zombie en la consola del heroe 
         canJump = true;
         if (col.gameObject.GetComponent<Zombies>())
         {
             Debug.Log("Waaaarrrr quiero comer "+ col.gameObject.GetComponent<Zombies>().zombie.taste);
-        }
+        }//mesage asignado al citizen en la consola del heroe 
         else if (col.gameObject.GetComponent<Citizen>())
         {
             Debug.Log("Holandas! soy " + col.gameObject.GetComponent<Citizen>().citizen.name

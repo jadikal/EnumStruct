@@ -8,7 +8,7 @@ public class General : MonoBehaviour
     public static GameObject[] zombies, citizens;
     public Color CityColor;
     void Start()
-    {
+    {//asinacion de mivimiento reflejado en el zombie
         int limit = Random.Range(9, 21), cantZ=Random.Range(1,limit-1);
         zombies = new GameObject[cantZ];
         citizens = new GameObject[limit-cantZ];

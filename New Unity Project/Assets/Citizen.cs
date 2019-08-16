@@ -8,7 +8,7 @@ public class Citizen : MonoBehaviour
     public static string[] cNames;
 
     private void Awake()
-    {
+    {//listado de nombres asignados al citizen
         cNames = new string[]
         {
             "Ruby","Yang","Weiss","Blake","Glynda","Ozpin","Jaune","Pyrrha","Nora","Ren","Coco","Velvet","Salem","Penny","Neo","Kali","Sumer","Qrow","Raven","Zwei"           

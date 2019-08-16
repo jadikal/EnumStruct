@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class FPSim : MonoBehaviour
-{
+{//control de camara para el heroe con el mouse
     public static float rotY;    
     void Start()
     {

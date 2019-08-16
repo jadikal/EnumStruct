@@ -23,7 +23,7 @@ public class Zombies : MonoBehaviour
             Color.cyan,
             Color.magenta,
             Color.green
-        };
+        };//asignacion de gusto imprimiendo en la consola
         zTaste = new string[5]
         {
             "Cerebro",
